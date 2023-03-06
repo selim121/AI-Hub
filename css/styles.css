@@ -1,0 +1,84 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins&family=Rubik&family=Work+Sans&display=swap');
+
+/* 
+font-family: 'EB Garamond', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+*/
+
+/* common styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.auh-accuracy-btn {
+    color: #FFFFFF;
+    background-color: #EB5757;
+    border-radius: 8px;
+    border: 0;
+    padding: 2px 10px;
+}
+
+.auh-arrow-btn {
+    color: #EB5757;
+    background-color: rgb(246, 227, 227);
+    border: 0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.auh-arrow-btn:hover {
+    color: #FFFFFF;
+    background-color: #EB5757;
+}
+
+.auh-close-btn {
+    color: #FFFFFF;
+    background-color: #EB5757;
+    border: 0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -35px;
+    right: -35px;
+}
+
+.auh-subscription {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 0;
+}
+.auh-modal-bg {
+    background-color: rgba(235, 87, 87, 0.05);
+}
+
+/* common color */
+.auh-btn-bg-color {
+    background-color: #EB5757;
+}
+
+.auh-feature-color {
+    color: #585858;
+}
+
+/* card hover effect */
+.bg-gradient:hover {
+    background: linear-gradient(to right, #f4e0e0, #faf4f4) !important;
+  }
+.card-img {
+    transition: transform 0.2s ease-in-out !important;
+}
+.card-img:hover {
+    transform: scale(0.9) !important;
+}
